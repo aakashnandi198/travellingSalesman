@@ -29,7 +29,7 @@ def solve_it(input_data):
     # visit the nodes in the order they appear in the file
     solver = Solver(points)
     solution = solver.solve()
-    solver.visualize(solution)
+    #solver.visualize(solution)
 
     # calculate the length of the tour
     obj = length(points[solution[-1]], points[solution[0]])

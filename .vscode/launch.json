@@ -8,9 +8,11 @@
             "name": "Python Debugger: Current File with Arguments",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${cwd}/solver.py",
+            "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
-            "args": "${command:pickArgs}"
+            //"args": "${command:pickArgs}"
+            "args": "./data/tsp_100_1"
         }
     ]
 }
