@@ -12,7 +12,7 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             //"args": "${command:pickArgs}"
-            "args": "./data/tsp_100_1"
+            "args": "./data/tsp_100_3"
         }
     ]
 }
